@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 #loading the model
-loaded_model=pickle.load(open('C:/Users/deepi/Downloads/ML STREAMLIT/trained_model.sav','rb'))
+loaded_model=pickle.load(open('./models/trained_model.sav','rb'))
 
 #creating a function for prediction
 def diabetes_prediction(input_data):
